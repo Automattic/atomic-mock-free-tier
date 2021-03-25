@@ -8,7 +8,6 @@ add_filter( 'map_meta_cap', 'mock_woa_free_plan_caps', 11, 2 );
 function mock_woa_free_plan_caps( $caps, $cap ) {
 	$theme_caps = [
 		'edit_themes',
-		'switch_themes',
 		'install_themes',
 		'update_themes',
 		'delete_themes',
