@@ -14,7 +14,6 @@ function mock_woa_free_plan_caps( $caps, $cap ) {
 		'update_themes',
 		'delete_themes',
 		'upload_themes',
-		'update_themes',
 	];
 
 	$plugin_caps = [
